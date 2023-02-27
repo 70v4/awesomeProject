@@ -1,0 +1,57 @@
+[System]
+Port = ":3000"
+Token = "ofqoppqdln123"
+
+[Contract]
+GameTokenAddress = "0xeDaA65EC48822B20b42285034ea2C932953BA24E"
+UsdcAddress = "0x64544969ed7EBf5f083679233325356EbE738930"
+PanCakeRouterAddress = "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3"
+GameTokenDexPoolAddress = "0x5da8b47c634762104f288fd847ce0da1d4982441"
+NftAddress = "0xD713bA2e36551d153EC7fe61071b7e5aFE002E57"
+GameVaultAddress = "0xCf79454F95bBD951fc761b676bFBaA15e42bda12"
+NFTDistributionAddress = "0x62e30be8e717EBb2e0F5CE3C7fDeBF9c729b6DC8"
+
+[Redis]
+Address = "119.13.91.74:6379"
+Password = ""
+
+[Moralis]
+XApiKey = "7L9fFRFaUpKOlFoUZi7SN0UBiUWbHgf6tTenyqg19TjPRTGuRS46UMRierHQ3XIs"
+
+[Chain]
+WsNodeAddress = "wss://ws-nd-513-001-835.p2pify.com/16ead84fd5bde769914b64a03ecde444"
+RpcNodeAddress = "https://nd-740-169-137.p2pify.com/d86a9070a4722647198c08cda29cecbb"
+
+[Mysql]
+Path = "119.13.91.74"
+Port = "3306"
+DbName = "spike_frame_server"
+Username = "root"
+Password = "oasis2022"
+MaxIdleConns = 0
+MaxOpenConns = 0
+
+[PuppetWallet]
+Mnemonic = "kit lizard decrease priority pill pear gas move dwarf empty shiver bridge"
+AccountNumber = 10
+GameTokenCost = 2000
+USDCCost = 200
+
+[Game]
+DefaultPassword = "807497a6f2d597c512d8b247c2158054" #12345678
+GameServerAddr = "https://login.spacekill.fun/amongus"
+DefaultCaptcha = "0000"
+
+[WhiteList]
+Address = [
+              "0xF6509DB198aCc08D14bBDe21AC9eA952af89eAbB",
+              "0x65a22c5Ef3bc163f5201B5e7C9554b2ff8E52512",
+              "0xC0806ABF42d45956775590f18a20fF40083455A5",
+              "0x82233Dd347DF3e2109eBB8Deb2B3934304516F7b",
+              "0x285640d63902B4F638c8A4671dd467b461Bab10e",
+              "0xeb1A88d3E2c3006952Fd2Afc5B16E3b646729990",
+              "0x978e7ccf82a6c89804220C4FCe31238fd8Fd5d1e",
+              "0xd355Ffc771B463eA8ac5F94bCC55924F72ed4092",
+              "0x593227907587CFE2Cf5712929643082D0710E0Cc",
+              "0xEfdFea8A8bCe5D622611f7B2e17a3EE4b8270147",
+            ]
